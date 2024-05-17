@@ -1,4 +1,5 @@
-/* In creating a temperature converter, ensuring the highest possible score entails meticulous attention to various aspects. This includes diligently declaring variables throughout the program, validating all inputs comprehensively to avoid crashes, and implementing a flawless function for temperature conversion. Additionally, it's imperative to ensure that the function accurately writes outputs to the Document Object Model (DOM) and formats them to the specified decimal places. A dedicated function for conversion should be error-free and seamlessly integrated into the application. Styling should be exemplary, with attention to detail evident in the interface, and responsiveness across various devices is crucial. Deployment on both GitHub and Netlify should be flawless, with the application functioning correctly post-deployment. Finally, strict adherence to time management ensures timely submission of the work, maximizing the potential for a perfect score. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -14,15 +15,16 @@ body{
 }
 
 .container{
-    background-color: #ffffff;
+    background-color: #2c2c2c;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(205, 235, 8, 0.1);
+    box-shadow: 0 0 10px rgba(180, 206, 15, 0.1);
     text-align: center;
 }
 
 .container h1{
     margin-bottom: 20px;
+    color: #ff0000;
 }
 
 .container .input-container{
@@ -35,14 +37,14 @@ body{
 .container .input-container input{
     width: 100px;
     padding: 10px;  
-    border: 1px solid #ccc;
+    border: 1px solid #ff0000;
     border-radius: 5px;
     margin-right: 10px;
 }
 
 .container .input-container select{
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffa200;
     border-radius: 5px;
 }
 
@@ -50,15 +52,15 @@ body{
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: #ff0000;
     color: #fff;
     cursor: pointer;
 }       
 
 .container button:hover{
-    background-color: #0069d9;
+    background-color: #ffa200;
 }
 
 .container button:active{
-    background-color: #0056b3;
+    background-color: #b32400;
 }
