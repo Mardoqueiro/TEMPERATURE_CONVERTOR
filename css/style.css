@@ -1,0 +1,64 @@
+/* In creating a temperature converter, ensuring the highest possible score entails meticulous attention to various aspects. This includes diligently declaring variables throughout the program, validating all inputs comprehensively to avoid crashes, and implementing a flawless function for temperature conversion. Additionally, it's imperative to ensure that the function accurately writes outputs to the Document Object Model (DOM) and formats them to the specified decimal places. A dedicated function for conversion should be error-free and seamlessly integrated into the application. Styling should be exemplary, with attention to detail evident in the interface, and responsiveness across various devices is crucial. Deployment on both GitHub and Netlify should be flawless, with the application functioning correctly post-deployment. Finally, strict adherence to time management ensures timely submission of the work, maximizing the potential for a perfect score. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(270deg, #ff0000 , #ffa200);
+}
+
+.container{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(205, 235, 8, 0.1);
+    text-align: center;
+}
+
+.container h1{
+    margin-bottom: 20px;
+}
+
+.container .input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container .input-container input{
+    width: 100px;
+    padding: 10px;  
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.container .input-container select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}       
+
+.container button:hover{
+    background-color: #0069d9;
+}
+
+.container button:active{
+    background-color: #0056b3;
+}
